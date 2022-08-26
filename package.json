@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+		"bump:patch": "pnpm version patch -m \"bump to %s\" --no-git-version",
+		"bump:minor": "pnpm version minor -m \"bump to %s\" --no-git-version",
+		"bump:major": "pnpm version major -m \"bump to %s\" --no-git-version"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KiritaniAyaka/eslint-config.git"
