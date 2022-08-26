@@ -21,5 +21,35 @@ module.exports = {
 		],
 		'curly': ['error', 'multi-line'],
 		'no-console': 'warn',
+		'vue/html-indent': [
+			'error',
+			'tab',
+			{
+				attribute: 1,
+				baseIndent: 1,
+				closeBracket: 0,
+			},
+		],
+		'vue/html-self-closing': [
+			'error',
+			{
+				html: {
+					normal: 'never',
+					void: 'always',
+					component: 'any',
+				},
+			},
+		],
+		'vue/max-attributes-per-line': [
+			'error',
+			{
+				singleline: {
+					max: 1,
+				},
+				multiline: {
+					max: 1,
+				},
+			},
+		],
 	},
 }
