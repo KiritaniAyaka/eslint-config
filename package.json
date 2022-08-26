@@ -1,0 +1,27 @@
+{
+  "name": "@kiritaniayaka/eslint-config",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiritaniAyaka/eslint-config.git"
+  },
+  "author": "KiritaniAyaka <kiritaniayaka@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KiritaniAyaka/eslint-config/issues"
+  },
+  "files": [
+    "index.js",
+    ".eslintrc.js"
+  ],
+  "homepage": "https://github.com/KiritaniAyaka/eslint-config#readme",
+  "dependencies": {
+    "@antfu/eslint-config": "^0.26.1",
+    "eslint": "^8.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
