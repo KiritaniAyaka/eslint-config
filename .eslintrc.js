@@ -20,6 +20,7 @@ module.exports = {
 			{ allowSingleLine: true },
 		],
 		'curly': ['error', 'multi-line'],
+		'operator-linebreak': ['error', 'after'],
 		'no-console': 'warn',
 		'vue/html-indent': [
 			'error',
