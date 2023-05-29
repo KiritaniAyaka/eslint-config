@@ -1,6 +1,6 @@
 module.exports = {
 	extends: '@antfu',
-	ignorePatterns: ['node_modules', 'lib'],
+	ignorePatterns: ['node_modules'],
 	rules: {
 		'indent': ['error', 'tab'],
 		'@typescript-eslint/indent': ['error', 'tab'],
