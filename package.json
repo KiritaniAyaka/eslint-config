@@ -23,8 +23,8 @@
   ],
   "homepage": "https://github.com/KiritaniAyaka/eslint-config#readme",
   "dependencies": {
-    "@antfu/eslint-config": "^0.26.1",
-    "eslint": "^8.22.0"
+    "@antfu/eslint-config": "^0.40.2",
+    "eslint": "^8.47.0"
   },
   "devDependencies": {
     "typescript": "^4.8.2"
